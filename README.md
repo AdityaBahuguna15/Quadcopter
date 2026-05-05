@@ -40,11 +40,14 @@ Three flight modes implemented in C++.
 <!-- Insert photos below -->
 | | |
 |---|---|
-| ![CAD](pictures/CAD.jpg) | SolidWorks prototyping |
-| ![circuit](pictures/Circuit.jpg) | Electronics prototyping |
+| ![CAD](pictures/CAD.png) | SolidWorks prototyping |
+| ![circuit](pictures/Circuit.png) | Electronics prototyping |
 | ![build](pictures/Assembled.jpg) | Assembled frame + electronics |
 | ![serial](pictures/Kalman.png) | Serial monitor — Kalman output |
 
 ### Videos
+![Test_Flight](pictures/DroneVideo.mp4)
+
+Test objective: Validating the rate mode PID controller's response to rapid, intentional disturbances — erratic inputs along a circular path to stress-test how quickly the controller corrects roll and pitch rates back to zero. Flight times were kept deliberately short because, well... this was my room. Do not try this at home. Or do, just don't blame me when you see the drone flying at you at mach 10 or better, your drone goes kaboom and you set off the fire alarm. 🚁💥
 
 Built and programmed from the ground up using the Carbon Aeronautics manual.
